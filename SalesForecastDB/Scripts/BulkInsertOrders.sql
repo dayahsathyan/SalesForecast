@@ -1,0 +1,1 @@
+BULK INSERT [Returns]FROM 'SP_Coding_Exercise_Dataset_product(Orders).csv' WITH (		FIRSTROW = 2		,FIELDTERMINATOR = ','		,ROWTERMINATOR = '\r'		)

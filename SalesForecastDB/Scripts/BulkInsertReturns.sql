@@ -1,0 +1,1 @@
+BULK INSERT [Returns]FROM 'SP_Coding_Exercise_Dataset_product(OrdersReturns).csv' WITH (		FIRSTROW = 2		,FIELDTERMINATOR = ','		,ROWTERMINATOR = '\r'		)GOALTER TABLE [Returns] ADD FOREIGN KEY (OrderId) REFERENCES Orders (OrderId);
